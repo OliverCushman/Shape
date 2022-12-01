@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Skateboard
-comment1.params=name\ speed
-comment1.target=Skateboard(java.lang.String,\ int)
-comment2.params=
-comment2.target=void\ addScratch()
-comment3.params=
-comment3.target=void\ polish()
-numComments=4
