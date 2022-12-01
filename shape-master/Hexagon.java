@@ -1,8 +1,8 @@
 public class Hexagon implements Shape {
-    private int sidelength;
+    private double sidelength;
     private String color;
     
-    public Hexagon (int sidelengthPar, String colorPar) {
+    public Hexagon (double sidelengthPar, String colorPar) {
         this.sidelength = sidelengthPar;
         this.color = colorPar;
     }
