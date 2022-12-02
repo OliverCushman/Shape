@@ -22,9 +22,9 @@ public class RegularShape implements Shape {
             double x = (Math.abs(this.SideLengthOrRadius)) / 2.0;
             double distanceToCenter = Math.tan(angle) * x;
             double area = ((x * distanceToCenter) / 2.0) * (this.Sides * 2.0);
-            return round(area);
+            return this.round(area);
         } else if (Sides == 0) {
-            return round(Math.PI * Math.pow((Math.abs(this.SideLengthOrRadius)), 2.0));
+            return this.round(Math.PI * Math.pow((Math.abs(this.SideLengthOrRadius)), 2.0));
         }
         return 0;
     }
@@ -35,10 +35,10 @@ public class RegularShape implements Shape {
     
     public double getPerimeter() {
         if (Sides >= 3) {
-            return round((Math.abs(this.SideLengthOrRadius)) * this.Sides);
+            return this.round((Math.abs(this.SideLengthOrRadius)) * this.Sides);
         }
         else if (Sides == 0) {
-            return round(2.0 * Math.PI * (Math.abs(this.SideLengthOrRadius))); 
+            return this.round(2.0 * Math.PI * (Math.abs(this.SideLengthOrRadius))); 
         }
         return 0;
     }
