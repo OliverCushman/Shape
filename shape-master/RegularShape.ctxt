@@ -2,10 +2,13 @@
 comment0.target=RegularShape
 comment1.params=sideLengthOrRadius\ sides\ color
 comment1.target=RegularShape(double,\ int,\ java.lang.String)
+comment1.text=\ \r\n\ Sides\ being\ initialized\ as\ 0\ makes\ the\ class\ behave\ like\ a\ circle,\ Sides\ being\ \r\n\ initialized\ as\ an\ integer\ equal\ to\ or\ greater\ than\ 3\ makes\ the\ class\ behave\ like\ \r\n\ a\ polygon\ with\ that\ amount\ of\ sides\ (1,\ 2,\ and\ all\ negative\ values\ are\ invalid\ \r\n\ values\ and\ will\ return\ areas\ and\ perimeters\ of\ 0)\r\n
 comment2.params=
 comment2.target=double\ getArea()
-comment3.params=
-comment3.target=double\ getPerimeter()
+comment3.params=d
+comment3.target=double\ round(double)
 comment4.params=
-comment4.target=java.lang.String\ getColor()
-numComments=5
+comment4.target=double\ getPerimeter()
+comment5.params=
+comment5.target=java.lang.String\ getColor()
+numComments=6
