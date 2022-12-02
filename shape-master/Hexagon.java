@@ -1,24 +1,24 @@
 public class Hexagon implements Shape {
-    private double sidelength;
-    private String color;
+    private double SideLength;
+    private String Color;
     
-    public Hexagon (double sidelengthPar, String colorPar) {
-        this.sidelength = sidelengthPar;
-        this.color = colorPar;
+    public Hexagon (double sideLength, String color) {
+        this.SideLength = sideLength;
+        this.Color = color;
     }
     
     public double getArea() {
-        double x = sidelength / 2;
-        double distanceToMiddle = x * Math.sqrt(3);
-        double area = ((x * distanceToMiddle) / 2) * 12;
+        double x = SideLength / 2;
+        double distanceToCenter = x * Math.sqrt(3);
+        double area = ((x * distanceToCenter) / 2) * 12;
         return area;
     }
     
     public double getPerimeter() {
-        return sidelength * 6;
+        return SideLength * 6;
     }
     
     public String getColor() {
-        return color;
+        return Color;
     }
 }

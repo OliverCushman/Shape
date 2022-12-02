@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=Hexagon
-comment1.params=sideLength\ color
-comment1.target=Hexagon(double,\ java.lang.String)
+comment0.target=RegularShape
+comment1.params=sideLengthOrRadius\ sides\ color
+comment1.target=RegularShape(double,\ int,\ java.lang.String)
 comment2.params=
 comment2.target=double\ getArea()
 comment3.params=
